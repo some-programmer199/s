@@ -88,6 +88,6 @@ def proxy():
 if __name__ == "__main__":
     startup()
     try:
-        app.run(host="0.0.0.0", port=8000, debug=True)
+        app.run(host="0.0.0.0", port=8000, debug=False)
     finally:
         shutdown()
